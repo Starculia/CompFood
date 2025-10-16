@@ -1,0 +1,175 @@
+body {
+  font-family:"Zalado Sans", sans-serif; 
+  margin:0;
+  background-color: #f4e4d2;
+  background-image: url(https://i.pinimg.com/736x/2e/0f/49/2e0f49ffadb4d8cf2c6c5875fe9260d3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@font-face {
+  font-family: "BBH Sans Bartle";
+  src: url("fonts/BBH-Sans-Bartle-Regular.woff2") format("woff2"),
+       url("fonts/BBH-Sans-Bartle-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:16px 24px;
+  background: rgba(229, 166, 87, 0.6);
+  backdrop-filter: blur(50px);
+  color:#3a2f2f;
+}
+
+
+
+/* NAVIGATION */
+
+.nav {
+  padding:30px;
+  border-top-right-radius: 20px;
+  background:#E5A657;
+  height:100vh;
+  box-sizing:border-box;
+  background:rgba(229, 166, 87, 0.3);
+  backdrop-filter: blur(50px);
+}
+
+.nav a {
+  display:block;
+  padding:10px 12px;
+  margin-bottom:8px;
+  border-radius:6px;
+  text-decoration:none;
+  color:#f4e4d2;
+  font-weight:600;
+  transition: all 0.3s ease;
+}
+
+.nav a:hover {
+  background:#E5A657;
+  color: #B53324;
+}
+
+.nav a:active {
+  background-color: #eabd85;
+  color: #f4e4d2;
+}
+
+/* NAVIGATION END */
+
+
+/* LOGIN DIV & HOVER */
+
+.login_direct {
+  font-size: 17px;
+  text-decoration: none;
+  color: #f4e4d2;
+  display:block;
+  padding:10px 12px;
+  margin-bottom:8px;
+  border-radius:6px;
+  text-decoration:none;
+  color:#f4e4d2;
+  font-weight:600;
+  transition: all 0.3s ease;
+}
+
+.login_direct:hover {
+  background: #d59a52;
+}
+
+/* LOGIN DIV & HOVER END */
+
+
+.brand {
+  font-size:24px;
+  font-weight:700;
+  color: #f4e4d2;
+  font-family: 'BBH Sans Bartle', sans-serif;
+}
+
+.tag {
+  font-size:14px;
+  opacity:.9;
+  color: #f4e4d2;
+}
+
+.delivery {
+  font-size: 15px;
+  font-weight: 400;
+  color: #f4e4d2;
+}
+
+/* FONTS */
+
+.zalando-sans-font {
+  font-family: "Zalando Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+
+.bbh-sans-bartle-regular {
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* FONTS END */
+
+.content {
+  padding:24px;
+  background:#f4e4d2;
+  height:100%;
+  box-sizing:border-box;
+  border-radius: 20px;
+  margin-left: 20px;  
+  margin-right: 20px;
+  padding: 20px;
+}
+
+/* byorka */
+.card {
+  border-radius:12px;
+  padding:16px;
+  margin-bottom:12px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.06);
+}
+
+.menu-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px
+}
+
+.menu-item img {
+  width:100%;
+  height: 65%;
+  border-radius:8px
+}
+
+.btn {
+  display:inline-block;
+  padding:10px 14px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:700;
+  background:#E5A657;
+  color:white
+}
+
+footer {
+  font-size:12px;
+  opacity:.8;
+  margin-top:12px
+}
